@@ -1,4 +1,5 @@
 CompileFlags:
+  CompilationDatabase: build/
   Add:
     - -Wno-error
     - -ferror-limit=0

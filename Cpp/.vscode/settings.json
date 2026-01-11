@@ -1,12 +1,14 @@
 {
     "C_Cpp.intelliSenseEngine": "disabled",
     "clangd.arguments": [
-        "--compile-commands-dir=${workspaceFolder}/build",
         "--background-index",
         "--header-insertion=never"
     ],
-    "cmake.automaticReconfigure": false,
-    "cmake.configureOnEdit": false,
-    "cmake.configureOnOpen": false,
-    "cmake.generator": "Ninja"
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "Ninja",
+    "files.associations": {
+        ".clangd-format": "yaml",
+        ".clang-tidy": "yaml",
+        ".clangd": "yaml"
+    }
 }
